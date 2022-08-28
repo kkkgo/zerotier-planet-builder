@@ -10,11 +10,11 @@ Inspired by [docker-zerotier-planet](https://github.com/xubiaolin/docker-zerotie
 USERNAME: zero-ui username.  
 PASSWORD: zero-ui password and docker image password.   
 
-![secrets](./pics/secrets.png)
+![secrets.png](https://s2.loli.net/2022/08/29/uxcTpePls5SmbWn.png)
 - 3 . Go to Actions,click "Run workflow."
-![run](./pics/run.png)
+![run.png](https://s2.loli.net/2022/08/29/ITs4SVxLE9lORM3.png)
 - 4 . Wait 3 minutes and you will see the Artifacts below, download it.
-![atrifacts](./pics/artifacts.png)
+![artifacts.png](https://s2.loli.net/2022/08/29/Gc3fbyUwZReJOHt.png)
 - 5 . Use the password you set to unzip it to get **zerotier-planet.tar.gz** and upload it to your server.  
 Prepare the docker environment on your server and run the following command to import the image:
 ```sh
@@ -59,11 +59,11 @@ Andriod: https://github.com/kaaass/ZerotierFix
 USERNAME: 登陆zero-ui的用户名  
 PASSWORD: zero-ui 的密码，和docker的镜像压缩包密码.   
 
-![secrets](./pics/secrets.png)
+![secrets.png](https://s2.loli.net/2022/08/29/uxcTpePls5SmbWn.png)
 - 3 . 点击 Actions,点击 "Run workflow."
-![run](./pics/run.png)
+![run.png](https://s2.loli.net/2022/08/29/ITs4SVxLE9lORM3.png)
 - 4 . 等待三分钟左右，就可以下载docker镜像了，大小在100M以内.
-![atrifacts](./pics/artifacts.png)
+![artifacts.png](https://s2.loli.net/2022/08/29/Gc3fbyUwZReJOHt.png)
 - 5 . 用你之前设置的密码解压文件得到 **zerotier-planet.tar.gz** 并上传到服务器.  
 在你的服务器准备docker运行环境，运行以下命令导入镜像:
 ```sh
