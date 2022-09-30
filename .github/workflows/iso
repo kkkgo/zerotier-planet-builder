@@ -1,0 +1,16 @@
+name: iso
+
+on:
+  workflow_dispatch
+        
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: docker://alpine
+    - uses: actions/checkout
+    - name: apk add lpine-sdk build-base apk-tools alpine-conf busybox \
+      fakeroot xorriso squashfs-tools sudo \
+      mtools dosfstools grub-efi
+      run: sed -i "s/1.1.1.1/${{ secrets.IP }}/g" ./patch/patch.json
