@@ -39,7 +39,7 @@ Note that each run of the docker image produces a unique ID related file. If you
 Open http://IP:4000, use your secrets USERNAME and PASSWORD to login.   
 ## For client  
 Replace your planet file:  
-Download your planet: http://IP:4000/app/static/media/planet  
+Download your planet: http://IP:4000/app/planet  
 
 Windows: C:\ProgramData\ZeroTier\One\planet  
 Linux: /var/lib/zerotier-one/planet  
@@ -88,7 +88,7 @@ docker run -d --name zerotier-server -p 4000:4000 -p 9993:9993/udp -v /data/zero
 打开 http://IP:4000, 用你设置的secrets USERNAME 和 PASSWORD 登陆.  
 ## 客户端
 替换planet文件:  
-下载planet: http://IP:4000/app/static/media/planet    
+下载planet: http://IP:4000/app/planet    
 
 Windows: C:\ProgramData\ZeroTier\One\planet    
 Linux: /var/lib/zerotier-one/planet    
