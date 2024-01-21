@@ -12,9 +12,9 @@ if  [ -z "$ZU_DEFAULT_PASSWORD"  ]
 then export ZU_DEFAULT_PASSWORD=zero-ui
 fi
 
-cp /var/lib/zerotier-one/planet /app/frontend/build/static/media/planet
+cp /var/lib/zerotier-one/planet /app/frontend/build/planet
 js=$(grep -ors "Please Log In to continue" /app|cut -d":" -f1)
-sed -i "s/Please Log In to continue/\/app\/static\/media\/planet /g" $js
+sed -i "s/Please Log In to continue/\/app\/planet /g" $js
 sed -i "s/ZeroUI - ZeroTier Controller Web UI - is a web user interface for a self-hosted ZeroTier network controller./Download planet:/g"  $js
 echo Run zerotier...
 zerotier-one -d
